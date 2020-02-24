@@ -15,8 +15,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ftballs-15" translatesAutoresizingMaskIntoConstraints="NO" id="PCR-TJ-aMa">
+                                <rect key="frame" x="78" y="711" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkw-Cy-dK9" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="52" y="175" width="311" height="111"/>
+                                <rect key="frame" x="52" y="142" width="311" height="111"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="dkw-Cy-dK9" secondAttribute="height" multiplier="311:111" id="vLH-we-Mws"/>
@@ -27,20 +31,14 @@
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AaX-J1-1dy">
-                                <rect key="frame" x="148" y="554" width="118" height="47"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <state key="normal" title="自动预测"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOn-ef-xwW">
-                                <rect key="frame" x="148" y="471" width="118" height="47"/>
+                                <rect key="frame" x="148" y="479" width="118" height="47"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <state key="normal" title="预测结果"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mmB-FM-WSa">
-                                <rect key="frame" x="148" y="389" width="118" height="47"/>
+                                <rect key="frame" x="148" y="383" width="118" height="47"/>
                                 <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <state key="normal" title="开始预测"/>
@@ -48,7 +46,6 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="AaX-J1-1dy" firstAttribute="top" secondItem="ZOn-ef-xwW" secondAttribute="bottom" constant="20" id="8t5-f3-dib"/>
                             <constraint firstItem="dkw-Cy-dK9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="OQG-1w-Flu"/>
                             <constraint firstItem="dkw-Cy-dK9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="csP-gu-xoZ"/>
                             <constraint firstItem="ZOn-ef-xwW" firstAttribute="top" secondItem="mmB-FM-WSa" secondAttribute="bottom" constant="20" id="mOc-0h-zYb"/>
@@ -61,5 +58,8 @@
             <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ftballs-15" width="640" height="525"/>
+    </resources>
     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
 </document>
